@@ -1,1 +1,21 @@
-yep
+<!DOCTYPE html>
+<html>
+    <body>
+        
+        <p id="decision"></p>
+
+        <script>
+        function yepNope() {
+            //Get the hour of the day
+            var curHours = new Date().getHours();
+            //If it is daytime
+            if (curHours >= 7 && curHours < 19) {
+                document.getElementById("decision").innerHTML = "yep";
+            } else {//else if it is nighttime
+                document.getElementById("decision").innerHTML = "nope";
+            }
+        }
+        </script>
+    </body>
+<html>
+
