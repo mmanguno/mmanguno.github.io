@@ -1,0 +1,12 @@
+exclude: ["README.md"]
+
+title : Mitchell Manguno
+author :
+  name : Mitchell Manguno
+  github : github.com/mmanguno
+
+url: "mmanguno.github.io"
+
+markdown: rdiscount
+permalink: pretty
+highlighter: pygments
